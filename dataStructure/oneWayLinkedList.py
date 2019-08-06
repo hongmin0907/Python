@@ -47,7 +47,7 @@ class LinkedList:
         print()
 
 
-print('dfadsfa')
+
 linkedlist = LinkedList()
 linkedlist.add(5)
 linkedlist.add(4)
