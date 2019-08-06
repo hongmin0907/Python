@@ -46,17 +46,17 @@ class LinkedList:
             iterator = iterator.next
         print()
 
-
-
-linkedlist = LinkedList()
-linkedlist.add(5)
-linkedlist.add(4)
-linkedlist.add(3)
-linkedlist.add(6)
-linkedlist.print()
-linkedlist.delete()
-linkedlist.print()
-linkedlist.search(3)
-linkedlist.search(10)
+# 이 파일이 main일 때 실행하는 조건문
+if __name__=="__main__":
+    linkedlist = LinkedList()
+    linkedlist.add(5)
+    linkedlist.add(4)
+    linkedlist.add(3)
+    linkedlist.add(6)
+    linkedlist.print()
+    linkedlist.delete()
+    linkedlist.print()
+    linkedlist.search(3)
+    linkedlist.search(10)
 
         
